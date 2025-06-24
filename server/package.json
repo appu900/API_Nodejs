@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon src/main.js"
+    "start": "nodemon src/main.js",
+    "test":"jest"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,13 @@
     "express": "^5.1.0",
     "mongoose": "^8.16.0",
     "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/register": "^7.27.1",
+    "jest": "^30.0.2",
+    "mongodb-memory-server": "^10.1.4",
+    "supertest": "^7.1.1"
   }
 }
