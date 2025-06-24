@@ -17,7 +17,8 @@ A simple Task CRUD (Create, Read, Update, Delete) RESTful API built with Node.js
 
 - **Backend**: Node.js, Express
 - **Database**: MongoDB (with Mongoose)
-- **HTTP Client**: Fetch / Postman
+- **Testing**: Jest, Supertest, mongodb-memory-server
+- **HTTP Client**: Postman / Fetch
 
 ---
 
@@ -27,3 +28,5 @@ A simple Task CRUD (Create, Read, Update, Delete) RESTful API built with Node.js
 git clone https://github.com/yourusername/task-api.git
 cd task-api
 npm install
+
+
